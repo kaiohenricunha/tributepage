@@ -80,7 +80,7 @@ element.style {
 .main-events {
   text-align:left;
   position: relative;
-  background-image: url(../images/fundopretocaetano.png);
+  background: url(../images/fundopretocaetano.png);
   background-repeat: no-repeat;
   background-attachment: relative;
   background-position: right;
