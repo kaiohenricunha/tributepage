@@ -1,100 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tribute Page to Caetano Veloso</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/39c2eebbd7.js" crossorigin="anonymous"></script>
+  <title>Tribute to Caetano Veloso</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main id="main">
-        <h1 id="title">Caetano Veloso</h1>
-        <p>An aging chameleon</p>
-        <div id="img-div">
-          <img id="image"
-      src="images/caetanoalegria.png"
-            alt="Caetano on stage for a Christmas live performance"
-          />
-          <figcaption id="img-caption">
-            Caetano performing <i>Alegria, Alegria</i> at the Record Festival in 1967.
-          </figcaption>
+  <main id="main">
+    <header class="header">
+     <div class="text-vertical-center">
+       <h1>Caetano Veloso</h1>
+       <h3 id="subheading">an aging chameleon</h3>
+       <a href="#about">
+          <i class="fa fa-angle-double-down" style="color: black";></i>
+       </a>
+     </div> 
+    </header>
+
+    <section id="tribute-info" class="container">
+      <div id="events" class="main-events">
+      <h3 id="about">These are the main events in Caetano's life:</h3>
+      <ul>
+        <li><strong>1942</strong> - Born in Santo Amaro, Bahia, Brazil</li>
+        <li>
+          <strong>1959</strong> - Hears for the first time the song <a href="https://www.youtube.com/watch?v=yUuJrpP0Mak" target="_blank"><strong>Chega de Saudade</strong></a>, by Bossa Nova's father João Gilberto. He later recalled: "It was the clearest landmark a song<br> has ever left in my life"
+        </li>
+        <li>
+        <strong>1963</strong> - First musical work. After impressing the director Álvaro Guimarães with a speech on how João Gilberto revitalized Samba, Caetano is invited to compose<br> the soundtrack to the plays Boca de Ouro, by Nelson Rodrigues, and A Exceção e a Regra, by Bertold Bretch.
+        </li>
+        <li>
+          <strong>1965</strong> - Moves to Rio de Janeiro with his sister Maria Betânia
+        </li>
+        <li>
+          <strong>1967</strong> - Releases, in a partnership with Gal Costa, his first album Domingo.
+        </li>
+        <li>
+          <strong>1967</strong> - Releases his first self-titled solo album, giving birth to the Tropicalist movement, which would change the history of Brazilian music.
+        </li>
+        <li>
+          <strong>1968</strong> - Caetano performs the provocative song <a 
+         target="_blank" href="https://www.youtube.com/watch?v=4xEz2uva_ZE" > <strong>É Proibido Proibir</strong></a> with Os Mutantes at the 3ª International Song Festival to a booing crowd. Caetano then improvises<br> an angry, and now historical, speech against the judges and the public.
+        </li>
+        <li>
+          <strong>1968</strong> - Because of his political views, Caetano is sent to jail by the Military Regime.
+        </li>
+        <li>
+          <strong>1969</strong> - Caetano <a href="https://www.youtube.com/watch?v=DM_2EdyytaU" target="_blank"><strong>moves to England</strong></a> with his friend Gilberto Gil, where he lives in exile until 1972.
+        </li>
+        <li>
+          <strong>1971</strong> - Releases one of his best albums, the acclaimed <a href="https://www.youtube.com/watch?v=2NjrZqzULfw" target="_blank"><strong>Transa</strong></a>, which contained covers and songs with English subtitles.
+        <li>
+          <strong>1972</strong> - Returns to Brazil and performs with João Gilberto and Gal Costa at TV Tupi.
+        </li>
+        <li>
+          <strong>1980</strong> - Caetano starts growing in popularity abroad, especially in Portugal, Israel, France and Africa.
+        </li>
+        <li>
+          <strong>1983</strong> - Meets Paula Lavigne, who was 14 years old. She would later become his long-time wife, with whom Caetano had 2 kids.
+        </li>
+        <li>
+          <strong>1990</strong> - Participates in the Montreaux Jazz Festival in Switzerland.
+        </li>
+        <li><strong>1991</strong> - Writes a profound article to the New York Times about the cultural implications of <a href="http://tropicalia.com.br/en/leituras-complementares/carmen-miranda-2" target="_blank"><strong>Carmem Miranda</strong></a></li>
+        <li>
+          <strong>2002</strong> - Launches a book about the tropicalia movement, Tropical Truth: A Story of Music and Revolution in Brazil.
+        </li>
+        <li>
+          <strong>2010</strong> - The artist becomes a constant meme object on the internet.
+        </li>
+        <li>
+          <strong>2016</strong> - Caetano performs at the Rio <a href="https://www.youtube.com/watch?v=n_70iW75YG8" target="_blank"><strong>Olimpic Games</strong></a> with Anitta and long-time friend Gilberto Gil.
+        </li>
+        <li>
+          <strong>2020</strong> - 
+  Wins a millionaire judicial dispute against Olavo de Carvalho, the intellectual mentor of the Bolsonaro family
+        </li>
+      </ul>
+    </div>
+
+      <div id="popular-albums-section" class="container">
+        <h3 class="popular-albums-header">Caetano's best albums</h3>
+          <hr>
+        <div class="albums-section row">
+          <div class="margin-bottom col-sm-6 col-md-3 column">
+            <h4 class="album-title"><strong>Transa</strong> - 1972</h4>
+            <a href="https://en.wikipedia.org/wiki/Transa_(album)" target="_blank"> <img class="album-photo img-responsive" src="images/caetanotransa.png" alt="Transa album cover"></a>
+          </div>
+          <div class="margin-bottom col-sm-6 col-md-3 column">
+            <h4 class="album-title"><strong>Qualquer coisa</strong> - 1975</h4>
+            <a href="https://en.wikipedia.org/wiki/Qualquer_Coisa" target="_blank"> <img class="album-photo img-responsive" src="images/qualquercoisa.png" alt="Qualquer Coisa album cover"></a>
+          </div>
+          <div class="margin-bottom col-sm-6 col-md-3 column">
+            <h4 class="album-title"><strong>Muito</strong> - 1978</h4>
+            <a href="https://en.wikipedia.org/wiki/Muito_(Dentro_da_Estrela_Azulada)" target="_blank"> <img class="album-photo img-responsive" src="images/muitocaetano.png" alt="muito album cover"></a>
+          </div>
+          <div class="margin-bottom col-sm-6 col-md-3 column">
+            <h4 class="album-title"><strong>Bicho</strong> - 1977</h4>
+            <a href="https://pt.wikipedia.org/wiki/Bicho_(%C3%A1lbum)" target="_blank"> <img class="album-photo img-responsive" src="images/Capa_de_Bicho.png" alt="Bicho album cover"></a>
+          </div>
+          <div class="margin-bottom col-sm-6 col-md-3 column">
+            <h4 class="album-title"><strong>Cores, Nomes</strong> - 1982</h4>
+            <a href="https://en.wikipedia.org/wiki/Cores,_Nomes" target="_blank"> <img class="album-photo img-responsive" src="images/coresnomescover.png" alt="Cores, Nomes album cover"></a>
+          </div>
         </div>
-        <section id="tribute-info">
-          <h3 id="headline">Here's a time line of Caetano Veloso's life:</h3>
-          <ul>
-            <li><strong>1942</strong> - Born in Santo Amaro, Bahia, Brazil</li>
-            <li>
-              <strong>1959</strong> - Hears for the first time the song Chega de Saudade, by Bossa Nova's father João Gilberto. He later recalled: "It was the clearest landmark a song has ever left in my life"
-            </li>
-            <li>
-            <strong>1963</strong> - First musical work. After impressing the director Álvaro Guimarães with a speech on how João Gilberto revitalized Samba, Caetano is invited to compose the soundtrack to the plays Boca de Ouro, by Nelson Rodrigues, and A Exceção e a Regra, by Bertold Bretch.
-            </li>
-            <li>
-              <strong>1965</strong> - Moves to Rio de Janeiro with his sister and singer Maria Betânia
-            </li>
-            <li>
-              <strong>1967</strong> - Releases, in a partnership with Gal Costa, his first album Domingo.
-            </li>
-            <li>
-              <strong>1967</strong> - Releases his first self-titled solo album, giving birth to the Tropicalist movement, which would change the history of Brazilian music.
-            </li>
-            <li>
-              <strong>1968</strong> - Caetano performs the provocative song É Proibido Proibir with Os Mutantes at the 3ª International Song Festival to a booing crowd. Caetano then improvises an angry, and now historical, speech against the judges and the public.
-            </li>
-            <li>
-              <strong>1968</strong> - Because of his political views, Caetano is sent to jail by the Military Regime.
-            </li>
-            <li>
-              <strong>1969</strong> - Caetano moves to England with his friend Gilberto Gil, where he lives in exile until 1972.
-            </li>
-            <li>
-              <strong>1971</strong> - Releases one of his best albums, the acclaimed Transa, which contained covers and songs with English subtitles.
-            <li>
-              <strong>1972</strong> - Returns to Brazil and performs with João Gilberto and Gal Costa at TV Tupi.
-            </li>
-            <li>
-              <strong>1980</strong> - Caetano starts growing in popularity abroad, especially in Portugal, Israel, France and Africa.
-            </li>
-            <li>
-              <strong>1983</strong> - Meets Paula Lavigne, who was 14 years old. She would later become his long-time wife, with whom Caetano had 2 kids.
-            </li>
-            <li>
-              <strong>1990</strong> - Participates in the Montreaux Jazz Festival in Switzerland.
-            </li>
-            <li><strong>1991</strong> - Writes a profound article to the New York Times about the cultural implications of Carmem Miranda</li>
-            <li>
-              <strong>2002</strong> - Launches a book about the tropicalia movement, Tropical Truth: A Story of Music and Revolution in Brazil.
-            </li>
-            <li>
-              <strong>2010</strong> - The artist becomes a constant meme object on the internet.
-            </li>
-            <li>
-              <strong>2016</strong> - Caetano performs at the Rio Olimpic Games with Anitta.
-            </li>
-            <li>
-              <strong>2020</strong> - 
-      Wins a millionaire judicial dispute against Olavo de Carvalho, the intellectual mentor of the Bolsonaro family
-            </li>
-          </ul>
-          <blockquote
-            cite="https://abcnews.go.com/ABC_Univision/Entertainment/caetano-veloso-brazilian-legend-honored-latin-grammys-person/story?id=17696096"
-          >
-            <p>
-              "When imagined by American critics, the most frequent cliché used about the legendary singer Caetano Veloso is that he is the Bob Dylan of Brazil. In that case, the best Dylan song to associate with Veloso would be "Forever Young," because Veloso is one of the most restlessly creative, forward-looking musicians of our time."
-            </p>
-            <cite>-- Author Ed Morales</cite>
-          </blockquote>
-          <h3>
-            If you have time, you should read more about this incredible human being
-            on his
-            <a
-              id="tribute-link"
-              href="https://en.wikipedia.org/wiki/Caetano_Veloso"
-              target="_blank"
-              >Wikipedia entry</a
-            >.
-          </h3>
-        </section>      
-      </main>
+      </div>
+      <hr>
+      <br>
+
+      <blockquote>
+        <p class="quote" id="sentence">
+          "When imagined by American critics, the most frequent cliché used about the legendary singer Caetano Veloso is that he is the Bob Dylan of Brazil. In that case, the best Dylan song to associate with Veloso would be 'Forever Young', because Veloso is one of the most restlessly creative, forward-looking musicians of our time."
+        </p>
+        <cite class="quote" id="author">-- Author Ed Morales</cite>
+      </blockquote>
+      <br>
+        <h3 class="footer" id="wiki">If you're interested, you should read more about this incredible human being on his
+        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Caetano_Veloso" target="_blank">Wikipedia entry</a>.
+      </h3>
+    <footer> 
+      <p class="footer">coded by <a href="https://github.com/kaiohenricunha" target="_blank">kaio</a></p>
+    </footer>
+    </section>
+
+  </main>
 </body>
 </html>
