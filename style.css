@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -18,8 +24,9 @@ p, h1, h3, h4, cite, ul {
   font-family: 'Open Sans Condensed', sans-serif;;
 }
 
-a:link {
+a {
   text-decoration: none;
+  color:white;
 }
 
 a:visited {
@@ -88,6 +95,15 @@ element.style {
   background-size: 80%;
   background-color: rgb(15, 14, 14);
   background-position-y:bottom;
+}
+
+section div h3 {
+  padding-bottom: 20px;
+}
+
+section div ul {
+  padding-top: 20px;
+  padding-left: 10px;
 }
 
 #about {
