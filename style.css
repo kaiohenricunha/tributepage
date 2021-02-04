@@ -100,14 +100,17 @@ section .main-events {
 
 @media screen and (max-width: 800px) {
   section .main-events {
-  background: url(images/fundopretocaetano.png);
-  }
-
+    background: url(images/fundopretocaetano.png);
+    }
+  
   .column {
     display: flex;
     flex-direction: column;
-    float: ;
+    padding: 25px;
+    margin-top: -20px;
+    
   }
+
 }
 
 section div h3 {
