@@ -84,10 +84,11 @@ element.style {
   margin-top: 50px;
 }
 
-.main-events {
+
+section .main-events {
   text-align:left;
   position: relative;
-  background: url(https://i.imgur.com/8gDh0yR.png);
+  background: url(images/fundopretocaetano.png);
   background-repeat: no-repeat;
   background-attachment: relative;
   background-position: right;
@@ -103,7 +104,7 @@ section div h3 {
 
 section div ul {
   padding-top: 20px;
-  padding-left: 10px;
+  padding-left: 30px;
 }
 
 #about {
