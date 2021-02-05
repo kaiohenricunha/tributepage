@@ -133,6 +133,12 @@ section div ul {
   margin: -10px;
 }
 
+div #popular-albums-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .popular-albums-header {
   padding-left: 20px;
   margin: -10px;
