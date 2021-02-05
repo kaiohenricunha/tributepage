@@ -98,6 +98,11 @@ section .main-events {
   background-position-y:bottom;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 @media screen and (max-width: 800px) {
   section .main-events {
     background: url(images/fundopretocaetano.png);
