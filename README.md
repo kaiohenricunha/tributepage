@@ -1,4 +1,4 @@
-I used this project as a means of practicing basic HTML and CSS as well as responsiveness. It was suggested by freecodecamp.org to build a Tribute Page that looked like this:
+I used this project as a means of practicing basic HTML and CSS as well as responsiveness. It was part of a project suggested by freecodecamp.org to build a Tribute Page that looked like this:
 
 ![Screen Shot 2021-12-12 at 11 43 16](https://user-images.githubusercontent.com/69804490/145716974-202c56d4-c21d-4b41-b2b1-5f74c034aac9.png)
 
